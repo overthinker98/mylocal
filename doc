@@ -1,0 +1,33 @@
+Cgroups- Cgroups or control groups are used to limit the resources used bt a process in a container. As there are limited resources alloted for a process, in a cluster which runs multiple containers, metering of resources is needed. There are two types of Cgroup limits 
+1) soft limit
+2) hard limit
+
+1) Hard limit: Hard limit is a type of limit where if a process reaches its max quota of limit it tends to exit/stop the process.
+2) Soft limit: Soft limits are a type a limit where if the lift is hit it doesn't stop the process but it checks for the available resources from other                resources and gets the available. (check??)
+
+Namespace-
+Namespaces restrict the level of access to an object in a container.
+
+ssh- -i flag is for passing the identity file(our private key) if stored in different path other than id_rsa in .ssh file.
+
+kube api server- commands from the user (kubectl get pods) calls the api server to trigger the respective api for the commandto execute.
+
+ports
+
+ssh-22
+http-80
+apache-80
+nginx-80
+https-443
+sql-3306
+rdp-3389
+ftp-21
+telnet-23
+nameserver-42
+domain name server(BIND) -53
+ldap-389
+
+NAT gateway- Instances in private subnet can connect outside vpc but external instances cannot make a connection to the instances.
+
+
+
