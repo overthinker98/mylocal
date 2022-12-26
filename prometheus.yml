@@ -1,0 +1,6 @@
+- name: install & configure prometheus
+  gather_facts: yes
+  hosts: all
+  become: yes
+  roles:
+    - prometheus
